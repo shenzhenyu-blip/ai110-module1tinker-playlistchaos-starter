@@ -1,0 +1,11 @@
+# Use these commands after copying the files into your repo.
+
+git add app.py playlist_logic.py
+git commit -m "fix: resolved incorrect behavior in playlist logic"
+
+git add README.md REFLECTION.md requirements.txt .gitignore tests/test_playlist_logic.py
+git commit -m "refactor: improved structure and readability"
+
+git status
+git log --oneline
+git push
